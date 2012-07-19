@@ -19,4 +19,4 @@ requires:
   Dancer::Hook: 0
   Dancer::Plugin: 0
   Facebook::Graph: 0
-version: 0.90
+version: 0.01
