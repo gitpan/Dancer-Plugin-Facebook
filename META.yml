@@ -1,14 +1,14 @@
 ---
-abstract: 'Plugin linking Dancer with Facebook::Graph'
+abstract: 'Manage Facebook interaction within Dancer applications'
 author:
   - 'Michael Alan Dorman <mdorman@ironicdesign.com>'
 build_requires:
   Dancer::Test: 0
   Test::More: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.31
+  ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200003, CPAN::Meta::Converter version 2.102400'
+generated_by: 'Dist::Zilla version 4.300020, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,6 +16,7 @@ meta-spec:
 name: Dancer-Plugin-Facebook
 requires:
   Dancer: 0
+  Dancer::Hook: 0
   Dancer::Plugin: 0
   Facebook::Graph: 0
-version: 0.001
+version: 0.90
