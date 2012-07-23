@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     "Dancer::Plugin" => 0,
     "Facebook::Graph" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.900",
   "test" => {
     "TESTS" => "t/*.t"
   }

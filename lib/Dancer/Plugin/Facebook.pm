@@ -1,6 +1,6 @@
 package Dancer::Plugin::Facebook;
 {
-  $Dancer::Plugin::Facebook::VERSION = '0.01';
+  $Dancer::Plugin::Facebook::VERSION = '0.900';
 }
 # ABSTRACT: Manage Facebook interaction within Dancer applications
 
@@ -115,7 +115,7 @@ Dancer::Plugin::Facebook - Manage Facebook interaction within Dancer application
 
 =head1 VERSION
 
-version 0.01
+version 0.900
 
 =head1 SYNOPSIS
 
